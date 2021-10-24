@@ -21,7 +21,7 @@ export default function Portfolio() {
             rel="noopener noreferrer"
             href={info.portfolio[i].liveLink}
           >
-            <img className={Style.image} src={mocks[j++]} alt="user-photo" />
+            <img className={Style.image} src={mocks[j++]} alt="profile" />
           </a>
           <h1>{info.portfolio[i].title}</h1>
           <a
